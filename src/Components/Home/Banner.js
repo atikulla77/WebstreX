@@ -1,6 +1,7 @@
 import React from "react";
 import Navber from "../Navbar/Navbar";
 import bg from "../../Image/bg_1.jpg";
+import bg2 from "../../Image/bg_1.2.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Banner = () => {
@@ -10,8 +11,11 @@ const Banner = () => {
       // id="Home"
     >
       <Navber />
-      <div className="w-full h-full absolute top-0 left-0 z-0">
+      <div className={`w-full h-full [@media(min-width:570px)]:flex hidden absolute top-0 left-0 z-0`}>
         <img src={bg} className="w-full h-full object-cover object-left" />
+      </div>
+      <div className={`w-full h-full [@media(min-width:570px)]:hidden flex absolute top-0 left-0 z-0`}>
+        <img src={bg2} className="w-full h-full object-cover object-left" />
       </div>
       <div className="container w-full h-[100vh] flex mx-auto relative">
         <div className="w-[100%] z-10 GeologicaFont text-white relative flex flex-col pt-[7rem] items-center justify-start text-center">
