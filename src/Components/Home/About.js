@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function About() {
   return (
-    <main className={`w-full h-full bg-[#0C0A20] relative GeologicaFont`}>
+    <main className={`w-full h-full relative GeologicaFont`}>
       <div className="w-full h-[10rem] absolute top-[-10rem] left-0 bg-gradient-to-t from-[#2f1a4e]  z-[2]"></div>
       <div className="w-full h-[10rem] absolute top-[-10px] left-0 bg-gradient-to-b from-[#2f1a4e]  z-[2]"></div>
 

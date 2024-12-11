@@ -48,7 +48,7 @@ function Navber() {
       <nav
         className={`text-[#fff] w-full relative z-10 ${
           color
-            ? "bg-[#31064d1a] shadow-[0px_0px_3px_0px_#0003] border-b-[1px] border-b-[#ffffff1b]"
+            ? "bg-[#31064d8a] shadow-[0px_0px_3px_0px_#0003] border-b-[1px] border-b-[#ffffff1b]"
             : "bg-transparent border-b-[1px] border-b-[#ffffff1b]"
         }`}
         style={{ transition: ".1s ease-in" }}
@@ -132,7 +132,7 @@ function Navber() {
             </div>
             {/* ---------------Mobile Nav Item--------------- */}
             <div
-              className={`absolute top-[4.6rem] right-0 w-[165px] h-[11.4rem] bg-[#3B0769] shadow-[0px_1px_3px_0px_#0000005c] rounded-b-[3px] z-0 flex md:hidden ${
+              className={`absolute top-[4.6rem] right-0 w-[165px] h-[11.4rem] bg-[#3B0769] shadow-[0px_1px_3px_0px_#0000002b] rounded-b-[3px] z-0 flex md:hidden ${
                 nevMobileVButton
                   ? `NavberMViewAnimationLeft`
                   : `NavberMViewAnimationRight`
