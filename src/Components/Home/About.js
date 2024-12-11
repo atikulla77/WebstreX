@@ -23,6 +23,7 @@ function About() {
             {/* image */}
             <div className="[@media(min-width:920px)]:w-[400px] w-full [@media(min-width:920px)]:justify-start justify-center flex ">
               <div className="lg:!w-[400px] [@media(min-width:525px)]:w-[370px] [@media(min-width:360px)]:w-[320px] w-[300px] lg:!h-[487px] [@media(min-width:525px)]:h-[457px] [@media(min-width:360px)]:h-[407px] h-[387px] flex justify-center items-center rounded-[5px] relative overflow-hidden">
+                <div className="w-full h-[100%] absolute top-0 left-0 bg-[#2f1a4e3d]"></div>
                 <img
                   src={image}
                   className={`w-[105%] h-[105%] object-cover mx-auto`}
