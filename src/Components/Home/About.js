@@ -24,7 +24,7 @@ function About() {
               </div>
             </div>
             {/* Content */}
-            <div className="[@media(min-width:920px)]:w-[55%] w-full h-full [@media(min-width:990px)]:px-[1rem] [@media(min-width:480px)]:px-0 [@media(min-width:400px)]:px-[0.5rem] px-[0.2rem] grid items-center text-white [@media(min-width:920px)]:text-left text-center relative lg:!ml-[4rem] [@media(min-width:990px)]:ml-[2rem] ml-0 [@media(min-width:920px)]:mt-0 mt-[2rem]">
+            <div className="[@media(min-width:920px)]:w-[55%] w-full h-full [@media(min-width:990px)]:px-[1rem] [@media(min-width:480px)]:px-0 px-[0.5rem]  grid items-center text-white [@media(min-width:920px)]:text-left text-center relative lg:!ml-[4rem] [@media(min-width:990px)]:ml-[2rem] ml-0 [@media(min-width:920px)]:mt-0 mt-[2rem]">
 
                 <p className="[@media(min-width:480px)]:text-[15px] [@media(min-width:400px)]:text-[14px] text-[13px] font-[500] text-[#9c9c9c] uppercase">
                   Welcome to cursive security
