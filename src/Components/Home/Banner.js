@@ -7,8 +7,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Banner = () => {
   return (
     <div
-      className="w-full h-[100%] relative flex items-end justify-center overflow-hidden bg-[#d5d5d5] pt-[5rem]"
-      // id="Home"
+      className="w-full h-[100%] relative flex items-end justify-center bg-[#d5d5d5] pt-[5rem]"
+      id="Home"
     >
       <Navber />
       <div className={`w-full h-full [@media(min-width:570px)]:flex hidden absolute top-0 left-0 z-0`}>
