@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function About() {
   return (
-    <main className={`w-full h-full relative GeologicaFont`}>
+    <main className={`w-full h-full relative GeologicaFont`} id="About">
       <div className="w-full h-[10rem] absolute top-[-10rem] left-0 bg-gradient-to-t from-[#2f1a4e]  z-[2]"></div>
       <div className="w-full h-[10rem] absolute top-[-10px] left-0 bg-gradient-to-b from-[#2f1a4e]  z-[2]"></div>
 
@@ -14,7 +14,10 @@ function About() {
       >
         <div className=" xl:w-[1230px] w-[100%] relative z-[1] flex flex-col justify-center items-center KarlaFont">
           <div className="absolute [@media(min-width:400px)]:bottom-[-7rem] bottom-[-5rem] right-0 z-0">
-            <img src={p_1} className="[@media(min-width:920px)]:w-[130px] [@media(min-width:600px)]:w-[100px] w-[70px]" />
+            <img
+              src={p_1}
+              className="[@media(min-width:920px)]:w-[130px] [@media(min-width:600px)]:w-[100px] w-[70px]"
+            />
           </div>
           <div className="w-full flex [@media(min-width:920px)]:flex-row flex-col justify-start items-center text-black z-10">
             {/* image */}

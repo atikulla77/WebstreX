@@ -4,7 +4,7 @@ import logo1 from "../../Image/1_icon_1.png";
 
 import { HiOutlineMenuAlt3, HiOutlineMenu } from "react-icons/hi";
 
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function Navber() {
   //      ``````````````````
@@ -34,12 +34,12 @@ function Navber() {
     {
       id: 3,
       name: "WhitePaper",
-      link: "WhitePaper",
+      link: "",
     },
     {
       id: 4,
       name: "Blog",
-      link: "Blog",
+      link: "",
     },
   ];
 
@@ -48,7 +48,7 @@ function Navber() {
       <nav
         className={`text-[#fff] w-full relative z-10 border-b-[1px] border-b-[#ffffff1b] ${
           color
-            ? "bg-[#31064d8a] shadow-[0px_0px_3px_0px_#0003]"
+            ? "bg-[#31064dd6] shadow-[0px_0px_3px_0px_#0003]"
             : "bg-transparent"
         }`}
         style={{ transition: ".1s ease-in" }}
@@ -79,11 +79,15 @@ function Navber() {
                     <Link
                       key={key.id}
                       to={key.link}
-                      className={
-                        "[@media(min-width:1024px)]:px-3 px-[5px] py-2 text-[14px] font-[400] cursor-pointer text-[#fff] hover:text-[#00e3ff] transition-[0.3s]"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={100}
+                      className={"text-[#fff] hover:text-[#00e3ff] [@media(min-width:1024px)]:px-3 px-[5px] py-2 text-[14px] font-[400] cursor-pointer transition-[0.3s]"
                       }
+                      aria-current="page"
                     >
-                      {key.name}
+                      <p className="">{key.name}</p>
                     </Link>
                   );
                 })}
@@ -92,7 +96,7 @@ function Navber() {
                     " px-[2px] py-[2px] w-[150px] h-[38px] text-[14px] font-[400] cursor-pointer text-[#fff] bg-gradient-to-r from-[#EA3E76] to-[#8B3CE3] rounded-[50px] transition-[0.3s] sm:ml-[16px] ml-[4px]"
                   }
                 >
-                  <span className="bg-[#31064D] px-[25px] py-[7px] rounded-[50px]">
+                  <span className="bg-[#3b0769bc] px-[25px] py-[7px] rounded-[50px]">
                     Coming Soon
                   </span>
                 </button>
@@ -104,35 +108,38 @@ function Navber() {
               <button
                 className={`desktop2:w-[140px] desktop4:w-[130px] w-[115px] desktop2:h-[38px] desktop4:h-[35px] h-[32px] desktop2:text-[13px] desktop4:text-[12px] text-[11px] font-[400] cursor-pointer text-[#fff] bg-gradient-to-r from-[#EA3E76] to-[#8B3CE3] desktop2:pl-[2px] pl-[1.5px] desktop2:pr-[2.5px] pr-[1.5px] desktop2:py-[2px] py-[1.5px] rounded-[50px] transition-[0.3s] desktop4:mr-[16px] mr-[10px]`}
               >
-                <div className="bg-[#3B0769] w-full h-full flex items-center justify-center rounded-[50px]">
+                <div className="bg-[#3b0769bc] w-full h-full flex items-center justify-center rounded-[50px]">
                   Coming Soon
                 </div>
               </button>
 
               {nevMobileVButton ? (
-                <div className="flex items-center justify-center w-[25px] h-[25px] overflow-hidden"  onClick={() => setNevMobileVButton(false)}>
+                <div
+                  className="flex items-center justify-center w-[22px] h-[22px]"
+                  onClick={() => setNevMobileVButton(false)}
+                >
                   <p
                     className={`[@media(min-width:420px)]:text-[36px] text-[33px] flex rotate-[45deg] text-white`}
-
                   >
                     +
                   </p>
                 </div>
               ) : (
                 <div
-                  className="w-[25px] h-[25px] flex items-center justify-center relative overflow-hidden"
+                  className="w-[22px] h-[22px] flex items-center justify-center relative"
                   onClick={() => setNevMobileVButton(true)}
                 >
                   <HiOutlineMenuAlt3
-                    className={`[@media(min-width:420px)]:text-[25px] text-[22px] ${nevMobileVButton? "hidden": 'flex'} text-white`}
+                    className={`[@media(min-width:420px)]:text-[25px] text-[22px] ${
+                      nevMobileVButton ? "hidden" : "flex"
+                    } text-white`}
                   />
-
                 </div>
               )}
             </div>
             {/* ---------------Mobile Nav Item--------------- */}
             <div
-              className={`absolute top-[4.6rem] right-0 w-[165px] h-[11.4rem] bg-[#3B0769] shadow-[0px_1px_3px_0px_#0000002b] rounded-b-[3px] z-0 flex md:hidden ${
+              className={`absolute top-[4.6rem] right-0 w-[165px] h-[10.9rem] bg-[#31064dd6] shadow-[0px_1px_3px_0px_#0000002b] rounded-b-[3px] z-0 flex md:hidden ${
                 nevMobileVButton
                   ? `NavberMViewAnimationLeft`
                   : `NavberMViewAnimationRight`
@@ -144,9 +151,14 @@ function Navber() {
                     <Link
                       key={key.id}
                       to={key.link}
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={100}
                       className={
-                        "sm:px-3 px-[5px] py-2 text-[14px] font-medium cursor-pointer block text-[#fff]"
+                        "sm:px-3 px-[5px] py-2 text-[13px] font-medium cursor-pointer block text-[#fff]"
                       }
+                      aria-current="page"
                       onClick={() => setNevMobileVButton(false)}
                     >
                       {key.name}
