@@ -17,7 +17,7 @@ const Banner = () => {
       <div className={`w-full h-full [@media(min-width:570px)]:hidden flex absolute top-0 left-0 z-0`}>
         <img src={bg2} className="w-full h-full object-cover object-left" />
       </div>
-      <div className="container w-full h-[100vh] flex mx-auto relative">
+      <div className="container w-full h-[36rem] flex mx-auto relative">
         <div className="w-[100%] z-10 GeologicaFont text-white relative flex flex-col [@media(min-width:450px)]:pt-[7rem] pt-[5rem] items-center justify-start text-center">
           <h2 className="desktop1:!text-[23px] [@media(min-width:570px)]:text-[18px] desktop3:text-[15px] text-[13px] font-[200] tracking-[1px] text-[#ffffffbd] uppercase OpenSans">
             The Next Generation Launchpad For

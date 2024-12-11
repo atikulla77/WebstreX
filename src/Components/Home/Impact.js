@@ -41,10 +41,10 @@ function Impact() {
             A Dedicated Launchpad
           </h1>
           <div className="flex items-center [@media(min-width:1105px)]:justify-start justify-center pt-[10px] [@media(min-width:1105px)]:mx-0 mx-auto">
-            <div className="[@media(min-width:600px)]:w-[35px] w-[30px] [@media(min-width:600px)]:h-[35px] h-[30px] rounded-[50%] bg-[#3a2a6952]  flex justify-center items-center mr-[5px]">
+            <div className="[@media(min-width:600px)]:w-[35px] w-[30px] [@media(min-width:600px)]:h-[35px] h-[30px] rounded-[50%] bg-[#3a2a6952]  flex justify-center items-center mr-[5px] cursor-pointer">
               <FaAngleLeft className="[@media(min-width:600px)]:text-[13px] text-[12px]" />
             </div>
-            <div className="[@media(min-width:600px)]:w-[35px] w-[30px] [@media(min-width:600px)]:h-[35px] h-[30px] rounded-[50%]  bg-[#3a2a69b1] flex justify-center items-center">
+            <div className="[@media(min-width:600px)]:w-[35px] w-[30px] [@media(min-width:600px)]:h-[35px] h-[30px] rounded-[50%]  bg-[#3a2a69b1] flex justify-center items-center cursor-pointer">
               <FaAngleRight className="[@media(min-width:600px)]:text-[13px] text-[12px]" />
             </div>
           </div>

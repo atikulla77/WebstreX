@@ -83,7 +83,7 @@ function Navber() {
                       smooth={true}
                       offset={-70}
                       duration={100}
-                      className={"text-[#fff] hover:text-[#00e3ff] [@media(min-width:1024px)]:px-3 px-[5px] py-2 text-[14px] font-[400] cursor-pointer transition-[0.3s]"
+                      className={"text-[#fff] hover:text-[#EA3E76] [@media(min-width:1024px)]:px-3 px-[5px] py-2 text-[14px] font-[400] cursor-pointer transition-[0.3s]"
                       }
                       aria-current="page"
                     >
