@@ -46,10 +46,10 @@ function Navber() {
   return (
     <div className={` w-full flex fixed top-[0px] z-50`}>
       <nav
-        className={`text-[#fff] w-full relative z-10 ${
+        className={`text-[#fff] w-full relative z-10 border-b-[1px] border-b-[#ffffff1b] ${
           color
-            ? "bg-[#31064d8a] shadow-[0px_0px_3px_0px_#0003] border-b-[1px] border-b-[#ffffff1b]"
-            : "bg-transparent border-b-[1px] border-b-[#ffffff1b]"
+            ? "bg-[#31064d8a] shadow-[0px_0px_3px_0px_#0003]"
+            : "bg-transparent"
         }`}
         style={{ transition: ".1s ease-in" }}
       >
