@@ -31,7 +31,7 @@ function Impact() {
     },
   ];
   return (
-    <main className="w-full h-[100%]">
+    <main className="w-full h-[100%]"  id="Impact">
       <div className="mx-auto xl:w-[1230px] w-[96%] h-full [@media(min-width:1105px)]:pt-[4rem] pt-[2rem] pb-[4rem] relative z-[1] flex [@media(min-width:1105px)]:flex-row flex-col justify-center">
         <div className="[@media(min-width:1105px)]:w-[200px] w-full [@media(min-width:1105px)]:pb-0 pb-[1rem] text-white my-[0.8rem] mx-auto [@media(min-width:1105px)]:text-left text-center">
           <p className="[@media(min-width:600px)]:text-[15px] text-[14px] tracking-[0.2px] font-[400] text-[#9c9c9c] uppercase KarlaFont">

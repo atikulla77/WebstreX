@@ -143,7 +143,7 @@ const Partners = () => {
           })}
         </div>
         {/* Our Team */}
-        <div className="w-full relative mx-auto flex flex-col text-center justify-center [@media(min-width:480px)]:pt-[3rem] pt-[3.5rem]">
+        <div className="w-full relative mx-auto flex flex-col text-center justify-center [@media(min-width:480px)]:pt-[3rem] pt-[3.5rem]" id="Team">
           <p className="text-[16px] tracking-[0.2px] font-[400] text-[#dfdfdf] uppercase KarlaFont">
             Our Team
           </p>
