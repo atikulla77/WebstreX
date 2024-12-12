@@ -17,13 +17,13 @@ function Footer() {
     },
     {
       id: 3,
-      name: "WhitePaper",
-      link: "",
+      name: "Impact",
+      link: "Impact",
     },
     {
       id: 4,
-      name: "Blog",
-      link: "",
+      name: "Team",
+      link: "Team",
     },
   ];
   return (
@@ -51,7 +51,7 @@ function Footer() {
                   offset={-70}
                   duration={100}
                   className={
-                    "[@media(min-width:1024px)]:px-3 px-[5px] [@media(min-width:700px)]:text-[14px] text-[13px] [@media(min-width:500px)]:font-[400] font-[300] cursor-pointer text-[#fff] hover:text-[#00e3ff] transition-[0.3s]"
+                    "[@media(min-width:1024px)]:px-3 px-[5px] [@media(min-width:700px)]:text-[14px] text-[13px] [@media(min-width:500px)]:font-[400] font-[300] cursor-pointer text-[#fff] hover:text-[#EA3E76] transition-[0.3s]"
                   }
                   aria-current="page"
                 >

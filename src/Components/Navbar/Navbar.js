@@ -33,13 +33,13 @@ function Navber() {
     },
     {
       id: 3,
-      name: "WhitePaper",
-      link: "",
+      name: "Impact",
+      link: "Impact",
     },
     {
       id: 4,
-      name: "Blog",
-      link: "",
+      name: "Team",
+      link: "Team",
     },
   ];
 

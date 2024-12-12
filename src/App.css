@@ -31,6 +31,29 @@
     max-width: 1220px;
   }
 }
+.container2 {
+  width: 100%;
+}
+@media (min-width: 420px) {
+  .container2 {
+    max-width: 310px;
+  }
+}
+@media (min-width: 768px) {
+  .container2 {
+    max-width: 615px;
+  }
+}
+@media (min-width: 1024px) {
+  .container2 {
+    max-width: 910px;
+  }
+}
+@media (min-width: 1280px) {
+  .container2 {
+    max-width: 1190px;
+  }
+}
 
 
 /* ```````Nav Mobile view Manu Bar Animation```````` */
@@ -56,3 +79,7 @@
     right: -250px;
   }
 }
+
+/* .slick-initialized .slick-slide{
+  width: 305px !important;
+} */
