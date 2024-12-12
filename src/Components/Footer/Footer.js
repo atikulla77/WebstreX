@@ -49,7 +49,7 @@ function Footer() {
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration={100}
+                  duration={500}
                   className={
                     "[@media(min-width:1024px)]:px-3 px-[5px] [@media(min-width:700px)]:text-[14px] text-[13px] [@media(min-width:500px)]:font-[400] font-[300] cursor-pointer text-[#fff] hover:text-[#EA3E76] transition-[0.3s]"
                   }
