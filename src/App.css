@@ -80,6 +80,6 @@
   }
 }
 
-/* .slick-initialized .slick-slide{
-  width: 305px !important;
-} */
+.slick-list{
+  height: 310px;
+}

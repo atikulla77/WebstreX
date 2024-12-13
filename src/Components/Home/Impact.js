@@ -6,6 +6,7 @@ import img3 from "../../Image/impact_3.png";
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 
+
 function Impact() {
   const impactData = [
     {

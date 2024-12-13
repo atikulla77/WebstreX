@@ -19,6 +19,10 @@ import Slider from "react-slick";
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+
 const Partners = () => {
   const PartnersData = [
     { id: 1, img: logo1 },
@@ -143,7 +147,10 @@ const Partners = () => {
           })}
         </div>
         {/* Our Team */}
-        <div className="w-full relative mx-auto flex flex-col text-center justify-center [@media(min-width:480px)]:pt-[3rem] pt-[3.5rem]" id="Team">
+        <div
+          className="w-full relative mx-auto flex flex-col text-center justify-center [@media(min-width:480px)]:pt-[3rem] pt-[3.5rem]"
+          id="Team"
+        >
           <p className="text-[16px] tracking-[0.2px] font-[400] text-[#dfdfdf] uppercase KarlaFont">
             Our Team
           </p>
@@ -162,7 +169,7 @@ const Partners = () => {
                   key={key.id}
                   className={` relative w-[290px] h-[290px] flex justify-center items-center mx-auto`}
                 >
-                  <div className="w-[285px] h-full flex items-center justify-center mx-auto rounded-[15px] bg-[#2e1e5d66] shadow-[0px_0px_3px_0px_#0000003d]">
+                  <div className="w-[285px] h-full flex items-center justify-center mx-auto rounded-[15px] bg-[#2e1e5d66] shadow-[0px_0px_3px_0px_#0000003d] relative">
                     <div
                       className={`relative flex items-center justify-center flex-col transition-[0.5s] opacity-[0.9]`}
                     >
@@ -183,6 +190,17 @@ const Partners = () => {
                           {key.description}
                         </p>
                       </div>
+                    </div>
+                    <div className="absolute bottom-[-15px] left-0 w-full flex justify-center items-center">
+                      <a className="w-[30px] h-[30px] flex cursor-pointer items-center justify-center text-center rounded-[50%] bg-[#33216a] mx-[3px]">
+                        <FaLinkedinIn className="text-[14px] text-white " />
+                      </a>
+                      <a className="w-[30px] h-[30px] flex cursor-pointer items-center justify-center text-center rounded-[50%] bg-[#33216a] mx-[3px]">
+                        <FaFacebookF className="text-[14px] text-white " />
+                      </a>
+                      <a className="w-[30px] h-[30px] flex cursor-pointer items-center justify-center text-center rounded-[50%] bg-[#33216a] mx-[3px]">
+                        <FaTwitter className="text-[14px] text-white " />
+                      </a>
                     </div>
                   </div>
 
